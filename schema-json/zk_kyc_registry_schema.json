@@ -1,0 +1,35 @@
+{
+  "contractName": "zk_kyc_registry",
+  "entrypoints": {
+    "add_idp": {
+      "error": "FQYAAAAMAAAAVW5hdXRob3JpemVkAgYAAABOb3RJZHACEQAAAEFscmVhZHlSZWdpc3RlcmVkAg0AAABOb3RSZWdpc3RlcmVkAg0AAABOdWxsaWZpZXJVc2VkAgUAAABQYXJzZQI=",
+      "parameter": "FAABAAAAAwAAAGlkcAs="
+    },
+    "is_verified": {
+      "returnValue": "AQ=="
+    },
+    "nullifier_used": {
+      "returnValue": "AQ=="
+    },
+    "register": {
+      "error": "FQYAAAAMAAAAVW5hdXRob3JpemVkAgYAAABOb3RJZHACEQAAAEFscmVhZHlSZWdpc3RlcmVkAg0AAABOb3RSZWdpc3RlcmVkAg0AAABOdWxsaWZpZXJVc2VkAgUAAABQYXJzZQI=",
+      "parameter": "FAACAAAABwAAAHN1YmplY3QLCgAAAGNvbW1pdG1lbnQUAQEAAAATIAAAAAI="
+    },
+    "remove_idp": {
+      "error": "FQYAAAAMAAAAVW5hdXRob3JpemVkAgYAAABOb3RJZHACEQAAAEFscmVhZHlSZWdpc3RlcmVkAg0AAABOb3RSZWdpc3RlcmVkAg0AAABOdWxsaWZpZXJVc2VkAgUAAABQYXJzZQI=",
+      "parameter": "FAABAAAAAwAAAGlkcAs="
+    },
+    "revoke": {
+      "error": "FQYAAAAMAAAAVW5hdXRob3JpemVkAgYAAABOb3RJZHACEQAAAEFscmVhZHlSZWdpc3RlcmVkAg0AAABOb3RSZWdpc3RlcmVkAg0AAABOdWxsaWZpZXJVc2VkAgUAAABQYXJzZQI=",
+      "parameter": "FAABAAAABwAAAHN1YmplY3QL"
+    },
+    "use_nullifier": {
+      "error": "FQYAAAAMAAAAVW5hdXRob3JpemVkAgYAAABOb3RJZHACEQAAAEFscmVhZHlSZWdpc3RlcmVkAg0AAABOb3RSZWdpc3RlcmVkAg0AAABOdWxsaWZpZXJVc2VkAgUAAABQYXJzZQI=",
+      "parameter": "FAABAAAACQAAAG51bGxpZmllchQBAQAAABMgAAAAAg=="
+    }
+  },
+  "init": {
+    "error": "FQYAAAAMAAAAVW5hdXRob3JpemVkAgYAAABOb3RJZHACEQAAAEFscmVhZHlSZWdpc3RlcmVkAg0AAABOb3RSZWdpc3RlcmVkAg0AAABOdWxsaWZpZXJVc2VkAgUAAABQYXJzZQI=",
+    "parameter": "FAACAAAABQAAAGFkbWluCwQAAABpZHBzEAIL"
+  }
+}

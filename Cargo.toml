@@ -1,0 +1,16 @@
+[package]
+name = "zk-kyc-registry"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+name = "zk_kyc_registry"
+
+[dependencies]
+concordium-std = { version = "9.0.2", default-features = false, features = ["std","wee_alloc"] }
+
+[features]
+default = ["std","wee_alloc"]
+std = ["concordium-std/std"]
+wee_alloc = ["concordium-std/wee_alloc"]

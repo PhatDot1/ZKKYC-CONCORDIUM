@@ -1,0 +1,4 @@
+concordium-client consensus status \
+  --grpc-ip grpc.testnet.concordium.com \
+  --grpc-port 20000 \
+  --secure
