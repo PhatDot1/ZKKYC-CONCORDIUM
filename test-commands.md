@@ -78,3 +78,51 @@ concordium-client contract invoke 12265 --subindex 0 \
   --grpc-ip grpc.testnet.concordium.com \
   --grpc-port 20000 \
   --secure
+
+
+
+  DEMO:
+
+
+
+
+  concordium-client contract invoke 12265 --subindex 0 \
+  --entrypoint is_verified \
+  --parameter-json check_subject.json \
+  --grpc-ip grpc.testnet.concordium.com \
+  --grpc-port 20000 \
+  --secure
+
+
+  concordium-client contract invoke 12265 --subindex 0 \
+  --entrypoint get_commitment \
+  --parameter-json check_subject.json \
+  --grpc-ip grpc.testnet.concordium.com \
+  --grpc-port 20000 \
+  --secure
+
+
+  concordium-client contract update 12265 --subindex 0 \
+  --entrypoint use_nullifier \
+  --sender my-ccd \
+  --energy 40000 \
+  --parameter-json use_nullifier_demo.json \
+  --grpc-ip grpc.testnet.concordium.com \
+  --grpc-port 20000 \
+  --secure
+
+
+
+  concordium-client contract invoke 12265 --subindex 0 \
+  --entrypoint nullifier_used \
+  --parameter-json check_nullifier_demo.json \
+  --grpc-ip grpc.testnet.concordium.com \
+  --grpc-port 20000 \
+  --secure
+
+
+
+  concordium-client transaction status <COPY_TX_HASH_FROM_COMMAND_3> \
+  --grpc-ip grpc.testnet.concordium.com \
+  --grpc-port 20000 \
+  --secure

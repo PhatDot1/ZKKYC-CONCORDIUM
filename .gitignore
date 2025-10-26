@@ -3,3 +3,5 @@ logs.txt
 env
 
 .env
+
+zk-kyc-agent/.env
