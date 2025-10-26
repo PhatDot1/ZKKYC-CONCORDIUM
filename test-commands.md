@@ -122,7 +122,7 @@ concordium-client contract invoke 12265 --subindex 0 \
 
 
 
-  concordium-client transaction status <COPY_TX_HASH_FROM_COMMAND_3> \
+  concordium-client transaction status 62f4d8a6688376e08a44b04301d1142e1017050e9542691db3fbbb5f17d7023f \
   --grpc-ip grpc.testnet.concordium.com \
   --grpc-port 20000 \
   --secure
